@@ -1,0 +1,18 @@
+time:--28/02/2024 09:47:36
+model:--LFFANet
+deep_supervision:--DSV
+dataset:--NUAA-SIRST
+mode:--TXT
+suffix:--.png
+workers:--4
+in_channels:--3
+base_size:--256
+crop_size:--256
+epochs:--1500
+start_epoch:--0
+optimizer:--Adagrad
+train_batch_size:--16
+test_batch_size:--32
+min_lr:--1e-05
+lr:--0.015
+gpus:--0
